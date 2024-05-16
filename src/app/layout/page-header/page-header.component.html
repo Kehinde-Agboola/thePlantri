@@ -1,0 +1,77 @@
+<nav class="bg-white shadow-md p-4">
+  <div class="max-w-6xl mx-auto flex items-center justify-between">
+    <div class="">
+      <a class="" href="/"><img [src]="Logo" alt="" /></a>
+    </div>
+
+    <div class="block md:hidden">
+      <button
+        class="ml-6 text-white hover:text-gray-200 focus:outline-none focus:text-gray-200"
+      >
+        <svg class="h-8 w-8 fill-current" viewBox="0 0 24 24">
+          <path d="M2 6h20v2H2zm0 5h20v2H2zm0 5h20v2H2z"></path>
+        </svg>
+      </button>
+    </div>
+
+    <div>
+      <ul class="hidden md:flex text-[16px] text-nav space-x-8">
+        <li>
+          <a
+            class="hover:text-navs"
+            routerLink="/"
+            routerLinkActive="active"
+            class="cursor-pointer"
+            >Home</a
+          >
+        </li>
+        <li>
+          <a
+            class="hover:text-navs"
+            routerLink="/"
+            routerLinkActive="active"
+            class="cursor-pointer"
+            >Collection</a
+          >
+        </li>
+        <li>
+          <a
+            class="hover:text-navs"
+            routerLink="/"
+            routerLinkActive="active"
+            class="cursor-pointer"
+            >Shop</a
+          >
+        </li>
+        <li>
+          <a
+            class="hover:text-navs"
+            routerLink="/"
+            routerLinkActive="active"
+            class="cursor-pointer"
+            >About</a
+          >
+        </li>
+        <li>
+          <a
+            class="hover:text-navs"
+            routerLink="/"
+            routerLinkActive="active"
+            class="cursor-pointer"
+            >Contact</a
+          >
+        </li>
+      </ul>
+    </div>
+
+    <div>
+      <div class="flex space-x-4">
+        <a routerLink="/" class="cursor-pointer"
+          ><img [src]="Search" alt=""
+        /></a>
+        <a routerLink="/" class="cursor-pointer"><img [src]="Cart" alt="" /></a>
+        <a routerLink="/" class="cursor-pointer"><img [src]="User" alt="" /></a>
+      </div>
+    </div>
+  </div>
+</nav>
