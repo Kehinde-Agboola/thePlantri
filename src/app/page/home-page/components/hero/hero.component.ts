@@ -9,4 +9,7 @@ import { Component } from '@angular/core';
 })
 export class HeroComponent {
   Hero = '../../../assets/heroImg.svg';
+  CreamPot = '../../../assets/cream-pot.png';
+  BlackPot = '../../../assets/black-pot.png';
+  WhitePot = '../../../assets/white-pot.png';
 }
