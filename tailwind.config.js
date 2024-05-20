@@ -9,6 +9,8 @@ module.exports = {
         hero: "#F6F4EE",
         para: "#333333",
         text: "#C5C5C5",
+        bloom: "#EBEBEB",
+        beauty: "#1E370E",
       },
       fontFamily: {
         rate: ["Montserrat", "sans-serif"],
