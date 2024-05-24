@@ -4,6 +4,7 @@ import { ServiceOfferComponent } from './components/service-offer/service-offer.
 import { BloomingBeautyComponent } from './components/blooming-beauty/blooming-beauty.component';
 import { ReviewsComponent } from './components/reviews/reviews.component';
 import { BlogComponent } from './components/blog/blog.component';
+import { NewsLetterComponent } from './components/news-letter/news-letter.component';
 @Component({
   selector: 'app-home-page',
   standalone: true,
@@ -15,6 +16,7 @@ import { BlogComponent } from './components/blog/blog.component';
     BloomingBeautyComponent,
     ReviewsComponent,
     BlogComponent,
+    NewsLetterComponent,
   ],
 })
 export class HomePageComponent {}
