@@ -11,10 +11,14 @@ module.exports = {
         text: "#C5C5C5",
         bloom: "#EBEBEB",
         beauty: "#1E370E",
+        news: "#CACBCF",
       },
       fontFamily: {
         rate: ["Montserrat", "sans-serif"],
         abhaya: ["Abhaya Libre", "serif"],
+      },
+      backgroundImage: {
+        new: "url('../src/assets/newsletter.jpg')",
       },
     },
   },
