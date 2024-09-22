@@ -6,7 +6,7 @@ module.exports = {
       colors: {
         nav: "#777777",
         navs: "#232323",
-        hero: "#F6F4EE",
+        hero: "#EFEFEF",
         para: "#333333",
         text: "#C5C5C5",
         bloom: "#EBEBEB",
@@ -19,6 +19,7 @@ module.exports = {
       },
       backgroundImage: {
         new: "url('../src/assets/newsletter.jpg')",
+        review: "url('../src/assets/review.svg')",
       },
     },
   },

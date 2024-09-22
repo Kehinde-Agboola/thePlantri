@@ -1,3 +1,12 @@
-.active {
-  font-weight: bold;
+.nav-link::after {
+  content: "";
+  display: block;
+  border-bottom: 2px solid currentColor;
+  transform: scaleX(0);
+  transition: transform 0.3s ease;
+}
+
+.nav-link-active::after {
+  transform: scaleX(1);
+  margin-top: 4px; /* Adjust this value for the desired space */
 }

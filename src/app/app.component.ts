@@ -3,6 +3,7 @@ import { RouterOutlet } from '@angular/router';
 import { PageFooterComponent } from './layout/page-footer/page-footer.component';
 import { PageHeaderComponent } from './layout/page-header/page-header.component';
 import { CommonModule } from '@angular/common';
+
 @Component({
   selector: 'app-root',
   standalone: true,
