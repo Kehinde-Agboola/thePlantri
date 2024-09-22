@@ -5,6 +5,7 @@ import { BloomingBeautyComponent } from './components/blooming-beauty/blooming-b
 import { ReviewsComponent } from './components/reviews/reviews.component';
 import { BlogComponent } from './components/blog/blog.component';
 import { NewsLetterComponent } from './components/news-letter/news-letter.component';
+import { CategoryComponent } from './components/category/category.component';
 @Component({
   selector: 'app-home-page',
   standalone: true,
@@ -13,6 +14,7 @@ import { NewsLetterComponent } from './components/news-letter/news-letter.compon
   imports: [
     HeroComponent,
     ServiceOfferComponent,
+    CategoryComponent,
     BloomingBeautyComponent,
     ReviewsComponent,
     BlogComponent,
